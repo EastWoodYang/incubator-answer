@@ -52,7 +52,6 @@ const Index: FC<IProps> = ({
   type,
   qid,
   aid = '',
-  title,
   isAccepted = false,
   hasAnswer = false,
   memberActions = [],
