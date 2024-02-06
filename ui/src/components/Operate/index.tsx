@@ -25,6 +25,7 @@ import { useTranslation } from 'react-i18next';
 import { Modal } from '@/components';
 import { useReportModal, useToast, useCaptchaModal } from '@/hooks';
 import { QuestionOperationReq } from '@/common/interface';
+import Share from '../Share';
 import {
   deleteQuestion,
   deleteAnswer,
