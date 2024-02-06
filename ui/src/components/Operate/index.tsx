@@ -315,7 +315,6 @@ const Index: FC<IProps> = ({
 
   return (
     <div className="d-flex align-items-center">
-      <Share type={type} qid={qid} aid={aid} title={title} />
       {firstAction?.map((item) => {
         if (item.action === 'edit') {
           return (
