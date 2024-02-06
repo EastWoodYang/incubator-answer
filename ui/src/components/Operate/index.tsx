@@ -42,7 +42,6 @@ interface IProps {
   type: 'answer' | 'question';
   qid: string;
   aid?: string;
-  title: string;
   hasAnswer?: boolean;
   isAccepted: boolean;
   callback: (type: string) => void;
@@ -316,6 +315,7 @@ const Index: FC<IProps> = ({
 
   return (
     <div className="d-flex align-items-center">
+      <Share type={type} qid={qid} aid={aid} title={title} />
       {firstAction?.map((item) => {
         if (item.action === 'edit') {
           return (
