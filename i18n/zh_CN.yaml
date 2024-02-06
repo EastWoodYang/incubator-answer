@@ -833,7 +833,7 @@ ui:
       placeholder: 搜索
   footer:
     build_on: >-
-      基于 <1>Answer</1> - 为问答社区提供动力的开源软件。<br />Made with love © {{cc}}.
+      HassBox全屋智能，小白轻松入！<br />powered By <1>Answer</1> © {{cc}}.
   upload_img:
     name: 更改图片
     loading: 加载中...

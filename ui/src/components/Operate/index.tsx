@@ -25,7 +25,6 @@ import { useTranslation } from 'react-i18next';
 import { Modal } from '@/components';
 import { useReportModal, useToast, useCaptchaModal } from '@/hooks';
 import { QuestionOperationReq } from '@/common/interface';
-import Share from '../Share';
 import {
   deleteQuestion,
   deleteAnswer,
@@ -318,7 +317,6 @@ const Index: FC<IProps> = ({
 
   return (
     <div className="d-flex align-items-center">
-      <Share type={type} qid={qid} aid={aid} title={title} />
       {firstAction?.map((item) => {
         if (item.action === 'edit') {
           return (

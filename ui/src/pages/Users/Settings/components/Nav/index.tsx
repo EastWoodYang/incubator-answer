@@ -34,12 +34,6 @@ const Index: FC = () => {
         to="/users/settings/profile">
         {t('profile')}
       </NavLink>
-      <NavLink className="nav-link" to="/users/settings/notify">
-        {t('notification')}
-      </NavLink>
-      <NavLink className="nav-link" to="/users/settings/account">
-        {t('account')}
-      </NavLink>
       <NavLink className="nav-link" to="/users/settings/interface">
         {t('interface')}
       </NavLink>
