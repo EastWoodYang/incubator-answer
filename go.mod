@@ -21,7 +21,7 @@ go 1.18
 
 require (
 	github.com/Chain-Zhang/pinyin v0.1.3
-	github.com/EastWoodYang/connector-wechat v1.1.0
+	github.com/EastWoodYang/connector-wechat v1.1.1
 	github.com/Machiel/slugify v1.0.1
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/anargu/gin-brotli v0.0.0-20220116052358-12bf532d5267
@@ -71,7 +71,8 @@ require (
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
-	github.com/EastWoodYang/goauth v0.0.1 // indirect
+	github.com/EastWoodYang/glib v1.0.3 // indirect
+	github.com/EastWoodYang/goauth v0.0.2 // indirect
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/LinkinStars/go-i18n/v2 v2.2.2 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
@@ -133,7 +134,6 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	github.com/sanxia/glib v1.0.2 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/afero v1.9.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
