@@ -53,6 +53,13 @@ jobs:
         args: release --clean --skip=validate
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: build Plugin
+      run: |
+        ./dist/answer build --output ${GITHUB_WORKSPACE}/dist/answer \
+        --with github.com/apache/incubator-answer-plugins/storage-aliyunoss \
+        --with github.com/EastWoodYang/connector-wechat
+
     - uses: actions/upload-artifact@v3
       with:
         name: answer
