@@ -18,6 +18,7 @@
 name: Build Binary For Release
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
