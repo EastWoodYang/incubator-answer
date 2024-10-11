@@ -22,6 +22,8 @@
 package main
 
 import (
+	storage_aliyunoss "github.com/apache/incubator-answer-plugins/storage-aliyunoss"
+	connector_wechat "github.com/EastWoodYang/connector-wechat"
 	answercmd "github.com/apache/incubator-answer/cmd"
 )
 
