@@ -22,6 +22,15 @@
 package main
 
 import (
+	_ "github.com/EastWoodYang/connector-wechat"
+	_ "github.com/apache/incubator-answer-plugins/connector-basic"
+	_ "github.com/apache/incubator-answer-plugins/cdn-aliyun"
+	_ "github.com/apache/incubator-answer-plugins/storage-aliyunoss"
+	_ "github.com/apache/incubator-answer-plugins/captcha-basic"
+	_ "github.com/apache/incubator-answer-plugins/cache-redis"
+	_ "github.com/apache/incubator-answer-plugins/search-algolia"
+	_ "github.com/apache/incubator-answer-plugins/render-markdown-codehighlight"
+
 	answercmd "github.com/apache/incubator-answer/cmd"
 )
 
